@@ -19,10 +19,23 @@
 
 ## Installation
 
-1. Install Java 7:
+1. Install Java 7 JDK:
 http://www.oracle.com/technetwork/java/javase/downloads/index.html
 
 1. Install postgres:
+
+    NOTE: To install postgres, you must first install homebrew. To do this, follow the steps on either of the links below:
+    http://techsharehub.blogspot.com/2013/08/brew-command-not-found.html
+    http://ricardianambivalence.com/2012/10/02/install-homebrew-on-your-mac-a-tutorial/
+
+    Homebrew can also be installed with the following command:
+    ```bash
+    ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
+    ```
+    Run the following command in terminal after installation:
+    ```bash
+    brew --version
+    ```
 
     ```bash
     brew update
@@ -56,6 +69,8 @@ http://www.oracle.com/technetwork/java/javase/downloads/index.html
     create user calcentral_test with password 'secret';
     grant all privileges on database calcentral_test to calcentral_test;
     ```
+
+    NOTE: At this point, exit out of postgres. To do this, type "\q" and then press ENTER.
 
 1. Fork this repository, then:
 
