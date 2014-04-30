@@ -37,7 +37,7 @@ http://www.oracle.com/technetwork/java/javase/downloads/index.html
     brew --version
     ```
 
-    Then, run the following:
+    Then run the following:
     ```bash
     brew update
     brew install postgresql
@@ -126,7 +126,8 @@ http://www.oracle.com/technetwork/java/javase/downloads/index.html
     You can also create Ruby configuration files like "settings.local.rb" and "development.local.rb" to amend the standard `config/environments/*.rb` files.
 
 1. Install JDBC driver (for Oracle connection)
-  * Download [ojdbc6.jar](http://svn.media.berkeley.edu/nexus/content/repositories/myberkeley/com/oracle/ojdbc6/11.2.0.3/ojdbc6-11.2.0.3.jar) -- just install, do not have to open
+  * Download [ojdbc6.jar](http://svn.media.berkeley.edu/nexus/content/repositories/myberkeley/com/oracle/ojdbc6/11.2.0.3/ojdbc6-11.2.0.3.jar)
+  *Note: You do not have to open the file.
   * Rename the file to `ojdbc6.jar`
   * Copy `ojdbc6.jar` to `calcentral/lib`
 
