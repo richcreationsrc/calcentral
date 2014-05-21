@@ -8,6 +8,8 @@
 
     var getMyGroups = function() {
       $http.get('/api/my/groups').success(function(data) {
+
+        //when load up live data, call feedLoaded function to check and add data to $scope object
         apiService.updatedFeeds.feedLoaded(data);
         angular.extend($scope, data);
       });

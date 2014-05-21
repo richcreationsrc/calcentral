@@ -6,6 +6,7 @@
 
       <h1 data-ng-bind="currentTopCategory"></h1>
 
+
       <div class="cc-widget" data-ng-if="currentTopCategory">
         <div class="cc-widget-title">
           <h2>Links</h2>
@@ -13,7 +14,32 @@
         <div data-ng-include="'templates/campus_link_list'"></div>
       </div>
 
+      <div class="cc-widget" data-ng-if="currentTopCategory">
+        <div class="cc-widget-title">
+          <h2>Cal 1 Card</h2>
+        </div>
+        <div data-ng-include="'templates/cal1card_balance'"></div>
+      </div>
+
+      <div class="cc-widget" data-ng-if="currentTopCategory">
+        <div class="cc-widget-title">
+          <h2>Todays Menu</h2>
+        </div>
+        <div data-ng-include="'templates/todays_menus'"></div>
+      </div>
+
+      <div class="cc-widget" data-ng-if="currentTopCategory">
+        <div class="cc-widget-title">
+          <h2>Tweets @CalDining</h2>
+        </div>
+        <div data-ng-include="'templates/campus_link_list'"></div>
+      </div>
+
+
+
     </div>
+
+
 
     <div class="medium-3 medium-pull-9 columns cc-page-campus-navigation" id="cc-local-navigation">
 

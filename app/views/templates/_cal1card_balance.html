@@ -1,0 +1,17 @@
+<script type="text/ng-template" id="templates/cal1card_balance">
+
+<div data-ng-controller="cal1cardBalanceController as balance">
+  <h3>Your current balance:</h3>
+  <div style="color:green; font-size:16px;">{{totalValue | currency}}</div>
+  <br/>
+
+  <div>
+    <button class="cc-button cc-button-blue" data-ng-click="addMealPoints(totalValue)">+ Add Meal Points</button>
+    <button class="cc-button cc-button-blue" data-ng-click="donateMealPoints(totalValue)">Donate Meal Points</button>
+  </div>
+
+  <br/>
+  <a href="">Check Transactions</a>
+</div>
+
+</script>

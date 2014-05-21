@@ -1,0 +1,80 @@
+{
+  "locations": [
+    {
+      "title": "LOCATION 1",
+      "number": 1,
+      "info": "This is the 1st location"
+    },
+    {
+      "title": "LOCATION 2",
+      "number": 2,
+      "info": "This is the 2nd location"
+    },
+    {
+      "title": "LOCATION 3",
+      "number": 3,
+      "info": "This is the 3rd location"
+    },
+    {
+      "title": "LOCATION 4",
+      "number": 4,
+      "info": "This is the 4th location"
+    },
+    {
+      "title": "LOCATION 5",
+      "number": 5,
+      "info": "This is the 5th location"
+    },
+    {
+      "title": "LOCATION 6",
+      "number": 6,
+      "info": "This is the 6th location"
+    },
+    {
+      "title": "LOCATION 7",
+      "number": 7,
+      "info": "This is the 7th location"
+    },
+    {
+      "title": "LOCATION 8",
+      "number": 8,
+      "info": "This is the 8th location"
+    },
+    {
+      "title": "LOCATION 9",
+      "number": 9,
+      "info": "This is the 9th location"
+    },
+    {
+      "title": "LOCATION 10",
+      "number": 10,
+      "info": "This is the 10th location"
+    },
+    {
+      "title": "LOCATION 11",
+      "number": 11,
+      "info": "This is the 11th location"
+    },
+    {
+      "title": "LOCATION 12",
+      "number": 12,
+      "info": "This is the 12th location"
+    },
+    {
+      "title": "LOCATION 13",
+      "number": 13,
+      "info": "This is the 13th location"
+    },
+    {
+      "title": "LOCATION 14",
+      "number": 14,
+      "info": "This is the 14th location"
+    },
+    {
+      "title": "LOCATION 15",
+      "number": 15,
+      "info": "This is the 15th location"
+    }
+  ]
+}
+
