@@ -2,21 +2,20 @@
 
   <div data-ng-controller="locationsMenuController">
 
-    <select data-ng-model="value" data-ng-change="updateSelectedLocations(value, locations)" >
+    <select data-ng-model="value">
       <option value="5">Closest Locations (1 miles)</option>
       <option value="10">Closer Locations (5 miles)</option>
       <option value="15">Close Locations (15 miles)</option>
     </select>
-
-    <div data-ng-if="showHide">
+    <div data-ng-if="!value">
       <p>Please select a location range above.</p>
     </div>
 
     <div>
-      <ul class="">
-        <li data-ng-repeat="location in selectedLocations">
-          <span style="color:#1F7099; font-weight:bold">{{location.title}}</span>
-          <p>{{location.info}}</p>
+      <ul>
+        <li data-ng-repeat="location in locations | limitTo:value">
+          <span style="color:#1F7099; font-weight:bold" data-ng-bind="location.title"></span>
+          <p data-ng-bind="location.info"></p>
         </li>
       </ul>
     </div>
